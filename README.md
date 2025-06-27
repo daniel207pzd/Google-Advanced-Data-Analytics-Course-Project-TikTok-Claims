@@ -15,6 +15,9 @@ At the time of writing and compilation, I have learnt to use the Polars package 
 The final compiled notebook can be viewed [here](https://github.com/daniel207pzd/Google-Advanced-Data-Analytics-Course-Project-TikTok-Claims/blob/main/Google%20Advanced%20Data%20Analytics%20-%20TikTok%20Claims%20Course%20Project%20(Daniel%20Poe).ipynb).
 
 ## Background
+
+![tiktok-logo-evolution_2018](https://github.com/user-attachments/assets/92261f0b-b1fe-4900-805a-7e009a850a48)
+
 At TikTok, our mission is to inspire creativity and bring joy. Our employees lead with curiosity and move at the speed of culture. Combined with our company's flat structure, you will be given dynamic opportunities to make a real impact on a rapidly expanding company and grow your career.
 
 TikTok users have the ability to submit reports that identify videos and comments that contain user claims. These reports identify content that needs to be reviewed by moderators. The process generates a large number of user reports that are challenging to consider in a timely manner. 
