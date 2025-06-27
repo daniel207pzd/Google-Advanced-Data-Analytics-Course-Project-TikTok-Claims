@@ -47,6 +47,14 @@ To develop a predictive model to accurately classify TikTok videos as containing
 This project uses a dataset called tiktok_dataset.csv. It contains synthetic data created for this project in partnership with TikTok. The dataset contains 19,383 rows and 12 columns. Each row represents a different published TikTok video in which a claim/opinion has been made.
 
 ## Exploratory Data Analysis (EDA) Tableau Visualisations
-I have also used Tableau to create visuals to help non-technical stakeholders engage and interact with the data. The Tableau visualisations can be found [here](https://public.tableau.com/app/profile/daniel.poe/viz/GoogleAdvancedDataAnalyticsTikTokClaimsCourseProjectTableauVisualisationsDanielPoe/ClaimClassificationsDatasetEDA).
+While I was carrying out EDA, I have also used Tableau to create visuals to help non-technical stakeholders engage and interact with the data. The Tableau visualisations can be found [here](https://public.tableau.com/app/profile/daniel.poe/viz/GoogleAdvancedDataAnalyticsTikTokClaimsCourseProjectTableauVisualisationsDanielPoe/ClaimClassificationsDatasetEDA).
+
+## Modelling and Evaluation
+A random forest model and an XGBoost model were built and compared. Based on the classification reports, both models were found to be near perfect. However, the errors of the XGBoost model tended to be false negatives. Identifying claims was the priority in this project. Therefore, it is important that the model be good at capturing all actual claim videos. The random forest model has better scores and is therefore selected as the champion model.
+
+The confusion matrix and feature importance plot of the random forest model using the test data are shown below.
+![image](https://github.com/user-attachments/assets/15cf40bc-bf16-472f-991c-62baa4f810a9)
+![image](https://github.com/user-attachments/assets/a6508b68-4c6e-49f0-807d-d4eda3ca98b4)
 
 ## Conclusion
+As noted, the model performed exceptionally well on the test holdout data. Before deploying the model, the data team recommends further evaluation using additional subsets of user data. Furthermore, the data team recommends monitoring the distributions of video engagement levels to ensure that the model remains robust to fluctuations in its most predictive features.
